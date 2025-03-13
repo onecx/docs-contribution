@@ -1,0 +1,20 @@
+= Frequently Asked Questions (FAQ)
+:idprefix:
+:idseparator: -
+:description: A collection of questions which are often raised by new team members and the answers.
+
+== General Questions
+
+[tags="general"]
+=== What are the main responsibilities of onecx team?
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+
+[tags="general"]
+=== For what are the onecx libs?
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+
+== Technical Questions
+
+[tags="technical"]
+=== How do I run my local changes in onecx-portal-libs?
+Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
