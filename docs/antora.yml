@@ -1,0 +1,6 @@
+name: contribution
+title: Contribution
+version: latest
+start_page: general:index.adoc
+nav:
+  - modules/contribution/nav.adoc

@@ -1,0 +1,23 @@
+= Frequently Asked Questions (FAQ)
+:idprefix:
+:idseparator: -
+:description: A collection of questions which are often raised by new team members and the answers.
+
+== How to test changes in shell-ui?
+[sidebar]
+*shell-ui*, testing, core-apps
+
+If you want to test changes to shell-ui, you can build it locally as a container for your docker-compose (inside your onecx-local-env).
+Context should lead to your cloned repository, docker will then take care of building the image and running it.
+
+.How it can look in your docker-compose.yaml
+[example]
+[source,yaml]
+----
+ onecx-shell-ui:   
+    # image: localhost/onecx-shell-ui:latest
+    build:
+      context: /path/to/onecx-shell-ui
+      dockerfile: Dockerfile
+----
+IMPORTANT: Change back to image after finishing development, so you use the public one again

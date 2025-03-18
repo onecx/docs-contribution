@@ -1,0 +1,11 @@
+= General
+
+:idprefix:
+:idseparator: -
+
+This guide brings together the collective knowledge for new team members.
+
+[#contribution]
+== Collection of valuable information for new team members
+
+* xref:faq.adoc[Frequently Asked Questions (FAQ)]
