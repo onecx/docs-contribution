@@ -4,8 +4,3 @@ version: latest
 start_page: general:index.adoc
 nav:
   - modules/contribution/nav.adoc
-  - modules/general/nav.adoc
-  - modules/documentation/nav.adoc
-  - modules/javascript/nav.adoc
-  - modules/quarkus/nav.adoc
-  - modules/bpmn/nav.adoc
