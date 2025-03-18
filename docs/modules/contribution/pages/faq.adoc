@@ -3,18 +3,21 @@
 :idseparator: -
 :description: A collection of questions which are often raised by new team members and the answers.
 
-== General Questions
+== How to test changes in shell-ui?
+[sidebar]
+*shell-ui*, testing, core-apps
 
-[tags="general"]
-=== What are the main responsibilities of onecx team?
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+If you want to test changes to shell-ui, you can build it locally as a container for your docker-compose (inside your onecx-local-env).
+Context should lead to your cloned repository, docker will then take care of building the image and running it.
 
-[tags="general"]
-=== For what are the onecx libs?
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-
-== Technical Questions
-
-[tags="technical"]
-=== How do I run my local changes in onecx-portal-libs?
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+.How it can look in your docker-compose.yaml
+[example]
+[source,yaml]
+----
+ onecx-shell-ui:   
+    # image: localhost/onecx-shell-ui:latest
+    build:
+      context: /path/to/onecx-shell-ui
+      dockerfile: Dockerfile
+----
+IMPORTANT: Change back to image after finishing development, so you use the public one again
