@@ -1,0 +1,31 @@
+== Error: "No binary for Chrome" while running npm run test
+[sidebar]
+testing, generator, setup
+
+[example]
+----
+No binary for Chrome browser on your platform. Please, set "CHROME_BIN" env variable
+----
+
+If you face this issue while running npm run test on an app, you need to set up chrome environment on wsl ubuntu:
+
+- open ubuntu/home/<username>/.bashrc
+- add path to your chrome.exe e.g. CHROME_BIN='/mnt/c/Program Files/Google/Chrome/Application/chrome.exe'
+- after restart of terminal echo $CHROME_BIN should not be empty
+
+If you try to run tests again and face following issue you need to add a tmp folder.
+
+[example]
+----
+Starting browser Chrome
+Cannot start Chrome
+
+Trying to start Chrome again (1/2)
+Cannot start Chrome
+----
+
+add tmp folder e.g. with 
+[example]
+----
+mkdir /mnt/c/tmp
+----

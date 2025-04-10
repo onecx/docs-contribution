@@ -1,0 +1,28 @@
+== How to test changes in shell-ui?
+[sidebar]
+*shell-ui*, testing, core-apps
+
+If you want to test changes to shell-ui, you can build it locally as a container for your docker-compose (inside your onecx-local-env).
+Context should lead to your cloned repository, docker will then take care of building the image and running it.
+
+.How it can look in your docker-compose.yaml
+[example]
+[source,yaml]
+----
+ onecx-shell-ui:   
+    # image: localhost/onecx-shell-ui:latest
+    build:
+      context: /path/to/onecx-shell-ui
+      dockerfile: Dockerfile
+----
+IMPORTANT: Change back to image after finishing development, so you use the public one again
+
+== What kind of code formatters should I use in VS Code? 
+[sidebar]
+setup
+
+We want to have a consistent formatting in all our projects. This makes collaboration easier, for example, with pull requests. Please install the following extensions in VS Code for this purpose.
+
+https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint
+https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
