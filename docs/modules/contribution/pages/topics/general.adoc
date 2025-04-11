@@ -1,4 +1,4 @@
-== Where to find documentation?
+=== Where to find documentation?
 [sidebar]
 documentation
 

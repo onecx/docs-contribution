@@ -17,7 +17,7 @@ Context should lead to your cloned repository, docker will then take care of bui
 ----
 IMPORTANT: Change back to image after finishing development, so you use the public one again
 
-== What kind of code formatters should I use in VS Code? 
+=== What kind of code formatters should I use in VS Code? 
 [sidebar]
 setup
 
