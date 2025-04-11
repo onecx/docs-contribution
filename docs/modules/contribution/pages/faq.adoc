@@ -3,8 +3,13 @@
 :idseparator: -
 :description: A collection of questions which are often raised by new team members and the answers.
 
+== General
 include::topics/general.adoc[]
+
+== Setup
 include::topics/setup.adoc[]
+
+== Technical
 include::topics/technical.adoc[]
 
 

@@ -1,4 +1,4 @@
-== Error: "No binary for Chrome" while running npm run test
+=== Error: "No binary for Chrome" while running npm run test
 [sidebar]
 testing, generator, setup
 
