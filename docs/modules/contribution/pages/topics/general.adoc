@@ -1,5 +1,3 @@
 == Where to find documentation?
 [sidebar]
 documentation
-
-https://e-3d-dc1.capgemini.com/confluence/pages/viewpage.action?pageId=406913581
